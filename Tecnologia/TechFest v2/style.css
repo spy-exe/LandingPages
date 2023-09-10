@@ -1,0 +1,171 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-size: 1.2rem;
+}
+
+/* Palestrantes */
+.speakers {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.speaker-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.speaker-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Programação */
+.schedule {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.time {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inscrições */
+.registration {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.register-button:hover {
+    background-color: #009688;
+}
+
+/* Localização */
+.venue {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .header-title {
+        font-size: 1.5rem;
+    }
+
+    .event-date {
+        font-size: 1rem;
+    }
+
+    .speaker-card {
+        margin: 10px 0;
+    }
+
+    .speaker-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .schedule {
+        margin: 10px 0;
+    }
+
+    .event h3 {
+        font-size: 1rem;
+    }
+
+    .time {
+        font-size: 0.9rem;
+    }
+
+    .register-button {
+        font-size: 1rem;
+    }
+
+    .venue {
+        margin: 10px 0;
+    }
+}
