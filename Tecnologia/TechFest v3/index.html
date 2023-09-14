@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
         <h1><a href="index.html">TechFest</a></h1>
         <h2><a href="#">console~#</a> O maior evento de tecnologia da América Latina!</h2>
         <nav>
             <ul>
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#inicio">Palestrantes</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sobre">Quem somos</a></li>
                 <li><a href="#evento">Evento</a></li>
                 <li><a href="#ingressos">Ingressos</a></li>
             </ul>
@@ -30,7 +30,7 @@
                     </div>
                     <h1 class="inicio-title">Zuckerberg</h1>
                     <h2 class="inicio-description">Fundador do Facebook, pioneiro das redes sociais, bilionário e filantropo da tecnologia <br><br> </h2>
-                    <button id="inicio-btn">Ingresso</button>
+                    <button id="inicio-btn"><a href="#">11 de outubro</a></button>
                 </div>
                 <div class="inicio-content">
                     <div class="inicio-img">
@@ -38,7 +38,7 @@
                     </div>
                     <h1 class="inicio-title">Jeff Bezos</h1>
                     <h2 class="inicio-description">Fundador da Amazon e um dos empresários mais ricos do mundo. Visionário do comércio eletrônico e inovação tecnológica.</h2>
-                    <button id="inicio-btn">Ingresso</button>
+                    <button id="inicio-btn"><a href="#">13 de outubro</a></button>
                 </div>
                 <div class="inicio-content">
                     <div class="inicio-img">
@@ -46,7 +46,7 @@
                     </div>
                     <h1 class="inicio-title">Lucas Mendes</h1>
                     <h2 class="inicio-description">Programador genial, criador de apps revolucionários, inovando o mundo da tecnologia com código brilhante.</h2>
-                    <button id="inicio-btn">Ingresso</button>
+                    <button id="inicio-btn"><a href="#">16 de outubro</a></button>
                 </div>
                 <div class="inicio-content">
                     <div class="inicio-img">
@@ -54,7 +54,7 @@
                     </div>
                     <h1 class="inicio-title">Max Hawaki</h1>
                     <h2 class="inicio-description">Visionário da realidade virtual, fundador de uma empresa de VR de ponta, transportando pessoas para mundos digitais incríveis.</h2>
-                    <button id="inicio-btn">Ingresso</button>
+                    <button id="inicio-btn"><a href="#">18 de outubro</a></button>
                 </div>
             </section>
         </div>
@@ -65,49 +65,54 @@
                     <h1>Quem somos?</h1>
                     <p>A TechFest é uma celebração inigualável da inovação, tecnologia e empreendedorismo que tem sido o epicentro de avanços revolucionários na América Latina.<br>
                         Fundada em 2004, nossa missão é impulsionar a transformação digital, promover a colaboração e inspirar mentes inovadoras.</p>
-                    <button>Saiba mais</button>    
+                    <button><a href="#">Saiba mais</a></button>    
                 </div>
             </section>
         </div>
 
         <div class="evento-div">
+            <h1 class="title">TechFest Indica</h1>
             <section id="evento">
                 <div class="evento-box">
                     <h1>TRANSPORTE</h1>
                     <img src="img/transporte.jpg" alt="Imagem Transporte Rodoviário">
-                    <h2>Transporte Rodoviário - UTIL</h1>
+                    <h2>Viação UTIL</h1>
                     <p>Utilize o cupom <a href="#">TechFest10OFF</a> no site da Util para resgatar 10% de desconto
                     em qualquer passagem de ônibus.<br>
                     Válido somente para viagens a Vassouras e 1 compra por CPF.</p>
-                    <button id="btn-transporte">Comprar</button>
+                    <button id="btn-transporte"><a href="#">Comprar</a></button>
                 </div>
                 <div class="evento-box">
                     <h1>LOCALIZAÇÃO</h1>
                     <img src="img/vassouras.jpg" alt="Imagem Localização">
-                    <h2>Vassouras - RJ</h2>
+                    <h2>Vassouras, Rio de Janeiro</h2>
                     <p>Localizado na cidade de Vassouras, no Rio de Janeiro, o TechFest acontece no Centro de Convenções de Vassouras, um dos maiores e mais modernos centros de convenções do Brasil.</p>
-                    <button id="btn-direcao">Direção</button>
-                    <button id="btn-uber">Uber</button>
-                    <button id="btn-99taxi">99 Taxi</button>
+                    <div class="btns-localizacao">
+                        <button id="btn-uber"><a href="https://uber.com">Uber</a></button>
+                        <button id="btn-99taxi"><a href="https://99app.com/passageiro/">99 App</a></button>
+                        <button id="btn-mapas"><a href="https://www.google.com/maps/dir//Av.+Ot%C3%A1vio+Gomes,+500+-+Centro,+Vassouras+-+RJ,+27700-000/@-22.4040642,-43.7387188,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x99311c850808bf:0xc2a1c73968947a77!2m2!1d-43.6564849!2d-22.4038848?entry=ttu">Google Maps</a></button>
+                    </div>
+                    
                 </div>
                 <div class="evento-box">
                     <h1>ALIMENTAÇÃO</h1>
                     <img src="img/logo-topo.svg" alt="Imagem Alimentação">
                     <h2>Patrocínio: DeliveryOn</h2>
                     <p>Comida e bebida de qualidade é essencial para um evento de sucesso. Por isso, a TechFest conta com os melhores restaurantes e bares do Rio de Janeiro para servir os participantes.</p>
-                    <button id="btn-cardapio">DeliveryOn</button>
+                    <button id="btn-deliveryon"><a href="https://deliveryon.com.br">Peça agora!</a></button>
                 </div>
                 <div class="evento-box">
                     <h1>Hospedagem</h1>
                     <img src="img/hotel.jpg" alt="Imagem Hospedagem">
-                    <h2>Bliss Hotel - Vassouras</h2>
+                    <h2>Bliss Hotel Vassouras</h2>
                     <p>Para quem vem de fora, a TechFest oferece hospedagem de qualidade em hotéis e pousadas da região. Aproveite o conforto e a comodidade de se hospedar próximo ao evento.</p>
-                    <button id="btn-reserva">Reserve agora</button>
+                    <button id="btn-bliss"><a href="https://blisshotelvassouras.com.br">Reservar</a></button>
                 </div>
             </section>
         </div>
         
         <div class="ingressos-div">
+            
             <section id="ingressos">
                 <div class="ingressos-content">
                 
@@ -117,7 +122,7 @@
     </main>
 
     <footer>
-        <p>Todos os direitos reservados <a href="instagram.com/ricardeiredo">Ricardo Figueiredo</a> &copy; 2023</p>
+        <p>Todos os direitos reservados <a href="https://instagram.com/ricardeiredo">Ricardo Figueiredo</a> &copy; 2023</p>
     </footer>
 </body>
 </html>
